@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maze Bounch Ball</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <div id="overlay-restart"></div>
+    <div id="overlay-retry"></div>
+    <div id="level" style="display: none">Level 1</div>
+
+    <!-- Add the <audio> element for background music -->
+    <audio id="backgroundMusic" loop>
+      <source
+        src="/assets/audio/8-bit-halloween-story-166454.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <!-- Set initial display to none -->
+
+    <script src="Box2dWeb.min.js"></script>
+    <script src="Three.js"></script>
+    <script src="keyboard.js"></script>
+    <script src="jquery.js"></script>
+    <script src="maze.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  </body>
+</html>
